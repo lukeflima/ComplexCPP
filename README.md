@@ -15,10 +15,7 @@ Output:
 ```
 -1-6i
 ```
-## To compile
-```
-g++ main.cpp -o complex
-```
+
 ## To test
 ```
 g++ -Wall tests/tests.cpp -o tests
