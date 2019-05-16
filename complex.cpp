@@ -143,7 +143,7 @@ ostream &operator<<(ostream &os, Complex const &c) {
 Complex pow(Complex c, int a)
 {
     if(a == 0){
-        Complex c3(0,0);
+        Complex c3(1,0);
         return c3;
     }
     if(a == 1) return c;
